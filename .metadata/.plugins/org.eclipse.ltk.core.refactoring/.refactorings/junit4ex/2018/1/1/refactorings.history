@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 2 packages to &apos;junit4ex1/src&apos;&#x0D;&#x0A;- Original project: &apos;junit4ex&apos;&#x0D;&#x0A;- Destination element: &apos;junit4ex1/src&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     junit4ex/src/com.javatpoint.testcase&#x0D;&#x0A;     junit4ex/src/com.javatpoint.logic" description="Copy packages" destination="=junit4ex1/src" element1="/src&lt;com.javatpoint.testcase" element2="/src&lt;com.javatpoint.logic" flags="589830" fragments="2" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1515010859622" version="1.0"/>
+</session>

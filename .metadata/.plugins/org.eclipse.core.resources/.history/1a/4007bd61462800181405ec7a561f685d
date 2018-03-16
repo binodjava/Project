@@ -1,0 +1,28 @@
+package com.oops.dynamicdispatch;
+
+public class Lab527 {
+	public static void main(String[] args) {
+		B4 b = new B4();
+		b.x = "SRI";
+		A4 a = b;
+		a.x = 88;
+		b.show();//SRI
+		88
+
+
+	}
+
+}
+
+class A4 {
+	int x = 10;
+}
+
+class B4 extends A4 {
+	String x = "BK";
+
+	void show() {
+		System.out.println(x);
+		System.out.println(super.x);
+	}
+}

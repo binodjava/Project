@@ -1,0 +1,14 @@
+package com.oops.dynamicdispatch;
+
+public class Lab524 {
+	public static void main(String[] args) {
+		
+	}
+
+}
+class A1{
+	int x=10;
+}
+class B1 extends A1{
+	String x="JLC";
+}

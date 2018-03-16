@@ -1,0 +1,9 @@
+package com.oops.dynamicdispatch;
+
+public class Lab523 {
+	public static void main(String[] args) {
+		
+	}
+
+
+}

@@ -1,0 +1,12 @@
+package com.oops.methodoverriding;
+
+public class Lab505 {
+	public static void main(String[] args) {
+		
+	}
+
+}
+
+class A11{
+	native void m1();
+}

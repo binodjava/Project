@@ -1,0 +1,17 @@
+package com.oops.assessmodifiers.p3;
+
+public class Lab489 {
+	public static void main(String[] args) {
+		A2 aobj = new A2();
+		aobj.show();
+	}
+
+}
+
+class A2 {
+	private int x;
+
+	void show() {
+		System.out.println(x);//0
+	}
+}

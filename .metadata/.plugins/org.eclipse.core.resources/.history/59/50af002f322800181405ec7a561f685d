@@ -1,0 +1,15 @@
+package com.oops.methodoverriding;
+
+public class Lab516 {
+	public static void main(String[] args) {
+		
+	}
+
+}
+class Xyz extends Hello{}
+class Haib extends Hello{
+	void show(){
+		Xyz ref=Xyz();
+		
+	}
+}

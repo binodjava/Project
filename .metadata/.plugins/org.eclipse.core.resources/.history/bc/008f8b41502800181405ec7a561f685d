@@ -1,0 +1,17 @@
+package com.oops.abstractclassandmethods;
+
+public class Lab536 {
+	public static void main(String[] args) {
+		
+	}
+
+}
+
+
+abstract class Person1{
+	abstract void sleeping();
+}
+
+abstract class Student1 extends Person1{
+	
+}

@@ -1,0 +1,13 @@
+package com.oops.dynamicdispatch;
+
+public class Lab521 {
+	public static void main(String[] args) {
+		Person p=null;
+		p=new Student();
+		p.reading();
+		p=new Employee();
+		p.working();
+		
+	}
+
+}

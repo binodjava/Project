@@ -1,0 +1,8 @@
+package com.oops.interfaces;
+
+abstract public class Lab540 {
+	public static void main(String[] args) {
+		
+	}
+
+}

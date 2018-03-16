@@ -1,0 +1,12 @@
+package com.jlc50programe;
+
+import java.io.IOException;
+
+public class Test9 {
+	public static void main(String[] args) throws IOException {
+		System.out.println("Enter the value");
+		int a=System.in.read();
+
+	}
+
+}

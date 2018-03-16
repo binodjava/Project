@@ -1,0 +1,8 @@
+package com.oops.classmembers.localvariables;
+
+public class Lab311 {
+	public static void main(String[] args) {
+
+	}
+
+}

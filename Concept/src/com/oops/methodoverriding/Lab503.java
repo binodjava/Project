@@ -1,0 +1,19 @@
+package com.oops.methodoverriding;
+
+public class Lab503 {
+	public static void main(String[] args) {
+		new B9().m1();
+
+	}
+
+}
+
+class A9 {
+	static void m1() {
+	}
+}
+
+class B9 extends A9 {
+	void m1() {// This instance method cannot override the static method from A9
+	}
+}

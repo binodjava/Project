@@ -1,0 +1,10 @@
+package com.jlc50programe;
+
+
+//Q. Wtap to read two numbers and display its quotient without using / Operator
+public class Test4 {
+	public static void main(String[] args) {
+		
+	}
+
+}

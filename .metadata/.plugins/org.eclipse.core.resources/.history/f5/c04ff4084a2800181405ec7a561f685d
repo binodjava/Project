@@ -1,0 +1,18 @@
+package com.oops.abstractclassandmethods;
+
+public class Lab529 {
+	public static void main(String[] args) {
+
+	}
+
+}
+
+class Shape {
+	void area() {
+
+	}
+}
+
+class Square extends Shape {
+
+}

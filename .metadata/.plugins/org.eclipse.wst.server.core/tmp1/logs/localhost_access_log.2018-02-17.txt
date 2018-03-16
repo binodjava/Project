@@ -1,0 +1,8 @@
+127.0.0.1 - - [17/Feb/2018:23:54:01 +0530] "GET / HTTP/1.1" 404 1077
+0:0:0:0:0:0:0:1 - - [17/Feb/2018:23:54:03 +0530] "GET /hcl-project/ HTTP/1.1" 200 2503
+0:0:0:0:0:0:0:1 - - [17/Feb/2018:23:54:51 +0530] "GET /hcl-project/tenant.html HTTP/1.1" 200 854
+0:0:0:0:0:0:0:1 - - [17/Feb/2018:23:54:59 +0530] "GET /hcl-project/catalog.html HTTP/1.1" 200 941
+0:0:0:0:0:0:0:1 - - [17/Feb/2018:23:55:01 +0530] "GET /hcl-project/service.html HTTP/1.1" 200 167
+0:0:0:0:0:0:0:1 - - [17/Feb/2018:23:55:02 +0530] "GET /hcl-project/order.html HTTP/1.1" 200 165
+0:0:0:0:0:0:0:1 - - [17/Feb/2018:23:55:03 +0530] "GET /hcl-project/selfService.html HTTP/1.1" 200 172
+0:0:0:0:0:0:0:1 - - [17/Feb/2018:23:55:03 +0530] "GET /hcl-project/userActivityReport.html HTTP/1.1" 200 174

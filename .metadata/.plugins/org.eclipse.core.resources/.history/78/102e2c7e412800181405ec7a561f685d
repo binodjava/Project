@@ -1,0 +1,18 @@
+package com.oops.dynamicdispatch;
+
+public class Lab522 {
+	public static void main(String[] args) {
+		Person p = null;
+		p = new Student();
+		p.sleeping();//static method
+		p = new Employee();
+		p.sleeping();//static method
+
+	}
+
+}
+
+/*
+Person->Sleeping()
+Person->Sleeping()
+*/

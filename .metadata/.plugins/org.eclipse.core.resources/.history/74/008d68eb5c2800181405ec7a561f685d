@@ -1,0 +1,14 @@
+package com.oops.interfaces;
+
+import com.oops.interfaces.p1.Inter9;
+
+public class Lab547 {
+	public static void main(String[] args) {
+		
+
+	}
+}
+
+class Hello10 implements Inter9,Inter10{
+	
+}

@@ -1,0 +1,9 @@
+0:0:0:0:0:0:0:1 - - [27/Jan/2018:00:01:45 +0530] "GET /hcl-project/dashboard.html HTTP/1.1" 200 2448
+0:0:0:0:0:0:0:1 - - [27/Jan/2018:00:01:47 +0530] "GET /hcl-project/tenant.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [27/Jan/2018:00:05:57 +0530] "GET /hcl-project/catalog.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [27/Jan/2018:00:06:00 +0530] "GET /hcl-project/service.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [27/Jan/2018:00:06:06 +0530] "GET /hcl-project/order.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [27/Jan/2018:00:06:08 +0530] "GET /hcl-project/selfService.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [27/Jan/2018:00:06:09 +0530] "GET /hcl-project/userActivityReport.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [27/Jan/2018:00:12:42 +0530] "GET /hcl-project/dashboard.html HTTP/1.1" 200 2464
+0:0:0:0:0:0:0:1 - - [27/Jan/2018:00:13:07 +0530] "GET /hcl-project/dashboard.html HTTP/1.1" 304 -

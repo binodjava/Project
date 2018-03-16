@@ -1,0 +1,26 @@
+package com.oops.methodoverriding;
+
+public class Lab504 {
+	public static void main(String[] args) {
+		B10.m1();// Cannot make a static reference to the non-static method m1()
+					// from the type B10
+
+	}
+
+}
+
+class A10 {
+	void m1() {
+	}
+
+	static void m2() {
+	}
+}
+
+class B10 extends A10 {
+	void m1() {
+	}
+
+	static void m2() {
+	}
+}

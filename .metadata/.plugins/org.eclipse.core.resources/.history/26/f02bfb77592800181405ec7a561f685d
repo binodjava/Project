@@ -1,0 +1,30 @@
+package com.oops.interfaces;
+
+public class Lab544 {
+	public static void main(String[] args) {
+		
+	}
+
+}
+
+interface Inter5{
+	void m1();
+	public abstract void m2();
+	int a=10;
+	public final int b=20;
+}
+
+class Hello5 implements Inter5{
+
+	@Override
+	public void m1() {
+		System.out.println("Hello->m1() :"+a);
+	}	
+}
+class Hai extends Hello5{
+	@Override
+	public void m2() {
+		System.out.println("Hello->m2() :"+b);
+		
+	}
+}

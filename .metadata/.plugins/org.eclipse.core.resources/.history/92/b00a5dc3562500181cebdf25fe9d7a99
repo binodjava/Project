@@ -1,0 +1,16 @@
+package com.oops.inheritance.withsuperkeyword;
+
+public class Lab443 {
+	public static void main(String[] args) {
+
+	}
+
+}
+
+class Hai3 {
+	static int a = 10;
+}
+
+class Hello3 extends Hai3 {
+
+}

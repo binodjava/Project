@@ -1,0 +1,23 @@
+package com.jlc50programe;
+
+import java.util.Scanner;
+
+public class Test15 {
+	public static void main(String[] args) {
+		int edigit=0,odigit=0;
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the number :");
+		int n = sc.nextInt();
+		
+		while(n!=0){
+			
+		}
+
+		
+		
+		
+		sc.close();
+
+	}
+
+}

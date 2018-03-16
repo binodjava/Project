@@ -1,0 +1,13 @@
+package com.logic;
+
+public class DeleteDuplicateElementsFromAnArray {
+	public static void main(String[] args) {
+		removeDuplicateElements();
+
+	}
+
+	public static void removeDuplicateElements() {
+
+	}
+
+}

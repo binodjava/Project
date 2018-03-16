@@ -1,0 +1,8 @@
+package com.logic;
+
+public class SecondMostRepeatingElementInArray {
+	public static void main(String[] args) {
+
+	}
+
+}

@@ -1,0 +1,17 @@
+package com.oops.inheritance.withblocks;
+
+class Hai6{
+	public static void main(String[] args) {
+		System.out.println("Hai->Main");
+	}
+	static{
+		System.out.println("Hai SB");
+	}
+}
+
+public class Lab435 extends Hai6{
+	static{
+		System.out.println("Lab435 SB");
+	}
+	
+}

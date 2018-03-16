@@ -1,0 +1,11 @@
+package com.jlc50programe;
+
+import java.util.Scanner;
+
+public class Lab8 {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter a Year :");
+	}
+
+}

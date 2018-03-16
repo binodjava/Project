@@ -1,0 +1,21 @@
+package com.oops.methodoverriding;
+
+public class Lab495 {
+	public static void main(String[] args) {
+
+	}
+
+}
+
+class A1 {
+	void show(int ab) {
+		System.out.println("A->show(int)");
+	}
+}
+
+class B1 extends A1 {
+
+	void show(String ab) {
+		System.out.println("B->show(String)");
+	}
+}

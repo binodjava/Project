@@ -1,0 +1,11 @@
+package com.jlc50programe;
+
+public class Test5 {
+	public static void main(String[] args) {
+		System.out.println("Enter the numbers for division :");
+		int a = sc.nextInt();
+		int b = sc.nextInt();
+		int quotient = 0;
+	}
+
+}

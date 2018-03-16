@@ -1,0 +1,14 @@
+package com.oops.assessmodifiers.p2;
+
+import com.oops.assessmodifiers.p1.A;
+
+public class D extends A {
+	public void showD() {
+		System.out.println("D->show()");
+		System.out.println(a);// Private
+		System.out.println(b);// Default
+		System.out.println(c);// Protected
+		System.out.println(d);// Public
+	}
+
+}

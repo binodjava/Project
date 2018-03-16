@@ -1,0 +1,14 @@
+package com.jlc50programe;
+
+import java.io.IOException;
+
+public class Test9 {
+	public static void main(String[] args) throws IOException {
+		System.out.println("Enter the value");
+		int a=(int)System.in.read();
+		int b=(int)System.in.read();
+
+		System.out.println("Sum is :"+(a+b));
+	}
+
+}

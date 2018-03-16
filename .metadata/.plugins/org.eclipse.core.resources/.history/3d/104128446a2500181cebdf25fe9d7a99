@@ -1,0 +1,27 @@
+package com.oops.assessmodifiers.p3;
+
+public class Lab492 {
+	public static void main(String[] args) {
+
+	}
+
+}
+
+class A5 {
+	private int x;
+
+	A5(int x) {
+		this.x = x;
+	}
+
+	int getX() {
+		return this.x;
+	}
+
+}
+
+class B extends A5 {
+	B(int x) {
+		super(x);
+	}
+}

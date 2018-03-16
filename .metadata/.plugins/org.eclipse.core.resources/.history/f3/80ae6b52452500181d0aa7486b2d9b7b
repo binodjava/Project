@@ -1,0 +1,19 @@
+package com.oops.inheritance;
+
+public class Lab419 {
+	public static void main(String[] args) {
+		
+		Hai2 hai=new hai2();
+		System.out.println(hai.a);
+		
+	}
+
+}
+
+class Hai2{
+	int a=99;
+}
+
+class Hello2 extends Hai2{
+	int b=88;
+}

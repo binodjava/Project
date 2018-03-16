@@ -1,0 +1,19 @@
+package com.jlc50programe;
+
+import java.util.Scanner;
+
+
+
+//Q. Wtap to read a char and check the following
+//a)Upper case alphabet
+//b)Lower case alphabet
+//c)Digit
+//d)Special Char
+
+public class Lab8 {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter a Year :");
+	}
+
+}

@@ -1,0 +1,12 @@
+package com.jlc50programe;
+
+import java.util.Scanner;
+
+//Q. Wtap to find the sum of individual digits of given numbers
+public class Test16 {
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		
+	}
+
+}

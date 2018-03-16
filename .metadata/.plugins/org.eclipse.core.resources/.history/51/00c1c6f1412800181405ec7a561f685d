@@ -1,0 +1,17 @@
+package com.oops.dynamicdispatch;
+
+public class Lab523 {
+	public static void main(String[] args) {
+		A a=new B();
+		System.out.println(a.x);
+		
+	}
+
+
+}
+class A{
+	int x=10;
+}
+class B extends A{
+	String x="JLC";
+}

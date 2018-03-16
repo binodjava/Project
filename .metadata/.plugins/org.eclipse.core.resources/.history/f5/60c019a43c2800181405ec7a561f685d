@@ -1,0 +1,14 @@
+package com.oops.dynamicdispatch;
+
+public class Employee {
+	void walking(){
+		System.out.println("Employee->Walking()");
+	}
+	static void sleeping(){
+		System.out.println("Employee->Sleeping");
+	}
+	void working(){
+		System.out.println("Employee->working()");
+	}
+
+}

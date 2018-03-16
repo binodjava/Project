@@ -1,0 +1,25 @@
+package com.oops.methodoverriding;
+
+public class Lab504 {
+	public static void main(String[] args) {
+		B10.m1();
+
+	}
+
+}
+
+class A10 {
+	void m1() {
+	}
+
+	static void m2() {
+	}
+}
+
+class B10 extends A10 {
+	void m1() {
+	}
+
+	static void m2() {
+	}
+}

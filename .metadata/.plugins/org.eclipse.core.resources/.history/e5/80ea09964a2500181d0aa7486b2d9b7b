@@ -1,0 +1,14 @@
+package com.oops.inheritance;
+
+public class Lab428 {
+	public static void main(String[] args) {
+
+	}
+
+}
+
+final class A6 {
+}
+
+class B6 extends A6 {
+}

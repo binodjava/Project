@@ -1,0 +1,32 @@
+package com.oops.inheritance.withsuperkeyword;
+
+public class Lab449 {
+	public static void main(String[] args) {
+
+	}
+
+}
+
+class A3 {
+	int a;
+
+	A3(int a) {
+		System.out.println("A (int) Cons");
+		this.a = a;
+	}
+}
+
+class B3 extends A3 {
+	String a;
+
+	B(int a1, String a2) {
+		super(a1);
+		this.a = a2;
+		System.out.println("B(int) Cons");
+	}
+
+	void show() {
+		System.out.println(this.a);
+		System.out.println(super.a);
+	}
+}

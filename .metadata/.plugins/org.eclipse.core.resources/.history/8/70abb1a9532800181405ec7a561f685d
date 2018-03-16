@@ -1,0 +1,12 @@
+package com.oops.interfaces;
+
+public class Lab540 {
+	public static void main(String[] args) {
+		
+	}
+
+}
+
+abstract class Binod{
+	
+}

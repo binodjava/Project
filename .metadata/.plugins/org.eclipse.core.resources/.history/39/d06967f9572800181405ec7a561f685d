@@ -1,0 +1,22 @@
+package com.oops.interfaces;
+
+public class Lab541 {
+	public static void main(String[] args) {
+		System.out.println("Hello!!!!");
+
+	}
+
+}
+
+interface Inter2 {
+	void m1();
+
+	public abstract void m2();
+
+	int a = 10;
+	public final int b = 20;
+}
+
+class Hello2 implements Inter2 {
+
+}

@@ -1,0 +1,12 @@
+package com.oops.methodoverriding;
+
+public class Lab498 {
+	public static void main(String[] args) {
+		
+	}
+
+}
+
+class Hello1{
+	
+}

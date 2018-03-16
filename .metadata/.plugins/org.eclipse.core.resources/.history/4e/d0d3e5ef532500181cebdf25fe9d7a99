@@ -1,0 +1,27 @@
+package com.oops.inheritance.withconstructors;
+
+public class Lab438 {
+	public static void main(String[] args) {
+		new C();
+
+	}
+
+}
+
+class A1 {
+	A1() {
+		System.out.println("A->D.C");
+	}
+}
+
+class B1 extends A1 {
+	B1() {
+		System.out.println("B->D.C");
+	}
+}
+
+class C1 extends B1 {
+	C1() {
+		System.out.println("C-> D.C");
+	}
+}

@@ -1,0 +1,17 @@
+package com.oops.inheritance.withblocks;
+
+public class Lab434 {
+	public static void main(String[] args) {
+
+	}
+
+}
+
+class hai5 {
+	{
+		System.out.println("Hai->IB");
+	}
+	static {
+		System.out.println("Hai->SB");
+	}
+}

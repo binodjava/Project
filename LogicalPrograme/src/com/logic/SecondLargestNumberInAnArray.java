@@ -1,0 +1,47 @@
+package com.logic;
+
+import java.util.Arrays;
+
+public class SecondLargestNumberInAnArray {
+	public static void main(String[] args) {
+		largestNumber(new int[] { 1, 4, 2, 3, 9, 8 });
+
+	}
+
+	public static void largestNumber(int[] a) {
+		int temp = 0;
+
+		 //Logic: 1 Using Arrays.sort(a);
+		 System.out.println("Using Arrays.sort(a)");
+		 Arrays.sort(a);
+		 System.out.println(Arrays.toString(a));
+		 System.out.println("1st largest No :"+a[a.length-1]);
+		 System.out.println("2nd largest No :"+a[a.length-2]);
+		 
+
+		// Logic: 2 Using Normal Arrangements of elements
+		System.out.println();
+		System.out.println("Using Normal Arrangements of elements");
+		for (int i = 0; i < a.length - 1; i++) {
+				if (a[i] > a[i + 1]) {
+					temp = a[i];// Arranging Loigc starts
+					a[i] = a[i + 1];
+					a[i + 1] = temp;// ends [same things we can do from
+									// Arrays.sort(a)]
+				}
+			}
+		
+		System.out.println(Arrays.toString(a));
+		System.out.println("1st largest No :" + a[a.length - 1]);
+		System.out.println("2nd largest No :" + a[a.length - 2]);
+
+	}
+
+}
+
+
+/*Q1. How to show content of 1D array?
+=>  Arrays.toString(a)
+Q2. How to show content of 2D array?
+=>  Arrays.deepToString(firstMatrix)*/
+

@@ -1,0 +1,35 @@
+package com.logic;
+
+import java.util.Arrays;
+
+public class SecondLargestNumberInAnArray {
+	public static void main(String[] args) {
+		largestNumber(new int[]{1,4,2,3,9,8});
+
+	}
+
+	public static void largestNumber(int[] a) {
+		int c[]=new int[a.length];
+		
+		/*//Logic: 1
+		Arrays.sort(a);
+		System.out.println("1st largest No :"+a[a.length-1]);
+		System.out.println("2nd largest No :"+a[a.length-2]);
+		*/
+		
+		// Logic:
+		for (int i = 0; i < a.length - 1; i++) {
+			for(int j=i+1;j<a.length-2;j++){
+				if (a[i] < a[j]);
+				c[i] = a[i];
+			
+		}
+		}
+		System.out.println("1st largest No :" + c[c.length - 1]);
+		System.out.println("2nd largest No :" + c[c.length - 2]);
+		
+		
+
+	}
+
+}

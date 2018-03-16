@@ -1,0 +1,25 @@
+package com.oops.assessmodifiers.p2;
+
+import com.oops.assessmodifiers.p1.A;
+
+public class D extends A {
+	public void showD() {
+		System.out.println("D->show()");
+		System.out.println(a);// Private
+		System.out.println(b);// Default [in different package, can't be used]
+		System.out.println(c);// Protected [sub class in different package]
+		System.out.println(d);// Public
+	}
+
+}
+
+class E {
+	public void showE() {
+		System.out.println("D->show()");
+		A aobj = new A();
+		System.out.println(aobj.a);
+		System.out.println(aobj.b);
+		System.out.println(aobj.c);
+		System.out.println(aobj.d);
+	}
+}

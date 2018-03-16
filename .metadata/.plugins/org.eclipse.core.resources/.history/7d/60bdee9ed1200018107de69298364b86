@@ -1,0 +1,10 @@
+package com.corejava.controlstatements;
+
+public class Lab205 {
+	public static void main(String[] args) {
+		while(){
+			System.out.println("BK");
+		}
+		
+	}
+}

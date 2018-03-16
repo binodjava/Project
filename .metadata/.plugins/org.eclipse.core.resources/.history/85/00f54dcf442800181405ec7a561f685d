@@ -1,0 +1,22 @@
+package com.oops.dynamicdispatch;
+
+public class Lab525 {
+	public static void main(String[] args) {
+
+	}
+
+}
+
+class A2 {
+	int x = 20;
+}
+
+class B2 extends A2 {
+	String str = "JLC";
+
+	void show() {
+		System.out.println(x);
+		System.out.println(super.x);
+	}
+
+}

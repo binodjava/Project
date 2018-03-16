@@ -1,0 +1,17 @@
+package com.oops.inheritance;
+
+public class Lab420 {
+	public static void main(String[] args) {
+
+	}
+
+}
+
+class Hai3 {
+	int a = 99;
+
+	void m1() {
+		System.out.println("Hai->m1 :" + a);
+		System.out.println("Hai->m1 :" + b);
+	}
+}

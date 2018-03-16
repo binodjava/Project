@@ -1,0 +1,12 @@
+package com.oops.interfaces;
+
+public class Lab544 {
+	public static void main(String[] args) {
+		
+	}
+
+}
+
+interface Inter5{
+	
+}

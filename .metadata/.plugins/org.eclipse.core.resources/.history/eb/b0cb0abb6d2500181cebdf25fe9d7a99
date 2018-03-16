@@ -1,0 +1,8 @@
+package com.oops.methodoverriding;
+
+public class Lab501 {
+	public static void main(String[] args) {
+
+	}
+
+}

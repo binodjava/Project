@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;hcl-project/WebContent/newPage.html&apos; to &apos;ManageSysProvider.html&apos;" description="Rename resource &apos;newPage.html&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="WebContent/newPage.html" name="ManageSysProvider.html" stamp="1516701984572" updateReferences="true"/>
+</session>

@@ -1,0 +1,16 @@
+package com.oops.abstractclassandmethods;
+
+public class Lab537 {
+	public static void main(String[] args) {
+
+	}
+}
+
+
+abstract class Hello{
+	static int A=1234;
+	static void show(){
+		System.out.println("Hello->show()");
+	}
+	
+}

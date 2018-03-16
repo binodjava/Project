@@ -1,0 +1,21 @@
+package com.oops.methodoverriding;
+
+public class Lab506 {
+	public static void main(String[] args) {
+
+		System.out.println(new B12().m1());
+	}
+
+}
+
+class A12 {
+	private void m1() {
+	}
+
+}
+
+class B12 extends A12 {
+	int m1() {
+		return 0;
+	}
+}

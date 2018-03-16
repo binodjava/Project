@@ -1,0 +1,14 @@
+package com.oops.assessmodifiers.p3;
+
+import com.oops.assessmodifiers.p1.A;
+
+public class Lab486 {
+	public static void main(String[] args) {
+		A ob1=new A();
+		ob1.showA();
+		B ob2=new B();
+		
+		
+	}
+
+}

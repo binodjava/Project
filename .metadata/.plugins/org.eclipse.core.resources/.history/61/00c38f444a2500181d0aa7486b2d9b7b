@@ -1,0 +1,16 @@
+package com.oops.inheritance;
+
+public class Lab427 {
+	public static void main(String[] args) {
+		System.out.println("Hello");
+
+	}
+
+}
+
+class A5 extends B5 {
+
+}
+
+class B5 extends A5 {
+}

@@ -1,0 +1,11 @@
+127.0.0.1 - - [28/Jan/2018:11:58:28 +0530] "GET / HTTP/1.1" 404 1077
+0:0:0:0:0:0:0:1 - - [28/Jan/2018:11:58:31 +0530] "GET /hcl-project/dashboard.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [28/Jan/2018:12:37:44 +0530] "GET /hcl-project/dashboard.html HTTP/1.1" 200 2513
+0:0:0:0:0:0:0:1 - - [28/Jan/2018:12:37:44 +0530] "GET /hcl-project/img_girl.jpg HTTP/1.1" 404 1105
+0:0:0:0:0:0:0:1 - - [28/Jan/2018:13:03:54 +0530] "GET /hcl-project/dashboard.html HTTP/1.1" 200 2499
+0:0:0:0:0:0:0:1 - - [28/Jan/2018:13:04:02 +0530] "GET /hcl-project/tenant.html HTTP/1.1" 200 854
+0:0:0:0:0:0:0:1 - - [28/Jan/2018:13:04:05 +0530] "GET /hcl-project/catalog.html HTTP/1.1" 200 941
+0:0:0:0:0:0:0:1 - - [28/Jan/2018:13:04:06 +0530] "GET /hcl-project/service.html HTTP/1.1" 200 167
+0:0:0:0:0:0:0:1 - - [28/Jan/2018:13:04:08 +0530] "GET /hcl-project/order.html HTTP/1.1" 200 165
+0:0:0:0:0:0:0:1 - - [28/Jan/2018:13:04:11 +0530] "GET /hcl-project/selfService.html HTTP/1.1" 200 172
+0:0:0:0:0:0:0:1 - - [28/Jan/2018:13:04:12 +0530] "GET /hcl-project/userActivityReport.html HTTP/1.1" 200 174

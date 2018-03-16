@@ -1,0 +1,10 @@
+package com.oops.abstractclassandmethods;
+
+public class Lab531 {
+	public static void main(String[] args) {
+		
+	}
+
+}
+class Shape2{}
+class

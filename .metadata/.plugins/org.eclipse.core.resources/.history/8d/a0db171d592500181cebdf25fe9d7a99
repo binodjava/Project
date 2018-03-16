@@ -1,0 +1,17 @@
+package com.oops.inheritance.withsuperkeyword;
+
+public class Lab449 {
+	public static void main(String[] args) {
+
+	}
+
+}
+
+class A3 {
+	int a;
+
+	A3(int a) {
+		System.out.println("A (int) Cons");
+		this.a = a;
+	}
+}

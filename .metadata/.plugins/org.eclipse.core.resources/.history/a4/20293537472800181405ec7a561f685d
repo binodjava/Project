@@ -1,0 +1,29 @@
+package com.oops.dynamicdispatch;
+
+public class Lab528 {
+	public static void main(String[] args) {
+
+	}
+
+}
+
+class A5 {
+	int x = 99;
+}
+
+class B5 extends A5 {
+	String x = "JLC";
+}
+
+class C5 extends B5 {
+	boolean x = false;
+
+	void show() {
+		char x = 'J';
+		System.out.println(x);
+		C5 cref = this;
+		B5 bref = this;
+		A5 aref = this;
+
+	}
+}

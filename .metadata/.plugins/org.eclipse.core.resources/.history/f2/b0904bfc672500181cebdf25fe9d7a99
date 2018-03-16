@@ -1,0 +1,11 @@
+package com.oops.assessmodifiers.q2;
+
+import com.oops.assessmodifiers.q1.Hello;
+
+public class Lab487 {
+	public static void main(String[] args) {
+		
+	}
+
+}
+class Xyz extends Hello{}
